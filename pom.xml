@@ -3,45 +3,4 @@
 
   <modelVersion>4.0.0</modelVersion> 
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
-  <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Maven Project</name>
-  <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.example.com</url>
-
-  <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-  </properties>
-
-  <modules>
-    <module>server</module>
-    <module>webapp</module>
-  </modules>
-
-
-
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
-        </configuration>
-      </plugin>
-                    <plugin>
-                 
-  <scm>
-    <connection>scm:git@github.com:D-I-V-Y-A-S/ci-cd-kubernetes-project.git</connection>
-    <developerConnection>scm:git@github.com:D-I-V-Y-A-S/ci-cd-kubernetes-project.git</developerConnection>
-    <tag>HEAD</tag>
-  </scm>
-
-  <prerequisites>
-    <maven>3.0.3</maven>
-  </prerequisites>
-
 </project>
