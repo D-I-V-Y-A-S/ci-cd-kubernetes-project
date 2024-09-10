@@ -19,12 +19,12 @@
     </properties>
 
     <dependencies>
-        <!-- Add your project dependencies here -->
+
     </dependencies>
 
     <build>
         <plugins>
-            <!-- Add your build plugins here -->
+         
         </plugins>
     </build>
 
